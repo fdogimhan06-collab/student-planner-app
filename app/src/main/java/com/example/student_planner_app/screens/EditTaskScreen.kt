@@ -242,7 +242,7 @@ fun EditTaskScreen(navController: NavController, email: String, taskId: String) 
                             }
                             .addOnFailureListener {
                                 isLoading = false
-                                errorMsg = "Task update කරන්න බැරි වුනා"
+                                errorMsg = "Unable to update task."
                             }
                     },
                     modifier = Modifier
