@@ -92,7 +92,7 @@ fun LoginScreen(navController: NavController) {
                 Button(
                     onClick = {
                         if (email.isBlank() || password.isBlank()) {
-                            errorMsg = "Email සහ Password දාන්න"
+                            errorMsg = "Enter Email and Password"
                             return@Button
                         }
                         isLoading = true
